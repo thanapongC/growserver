@@ -1,7 +1,7 @@
 
 var admin = require("firebase-admin");
 var app = require('express')();
-var reInterval = require('reInterval');
+var reInterval = require('reinterval');
 var port = process.env.PORT || 7777;
 app.get('/', function (req, res) {
    res.send('<h1>Hello Node.js</h1>');
